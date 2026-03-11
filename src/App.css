@@ -1,0 +1,35 @@
+.app-bg{
+  min-height:100vh;
+  background: linear-gradient(135deg,#f5f7fa,#e4ecff);
+}
+
+.blog-title{
+  font-weight:700;
+  margin-bottom:30px;
+}
+
+.create-card{
+  border:none;
+  border-radius:12px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.post-card{
+  border:none;
+  border-radius:12px;
+  margin-bottom:20px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.post-card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 15px 35px rgba(0,0,0,0.12);
+}
+
+.publish-btn{
+  background:#4f46e5;
+  border:none;
+  padding:8px 20px;
+  border-radius:8px;
+}
